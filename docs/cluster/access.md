@@ -4,7 +4,7 @@
 
 Web Access at hpc.uthscsa.edu (LiCO)
 
-The PACC Cluster can be accessed through the web interface at https://hpc.uthscsa.edu., which utilizes Lenovo Intelligent Computing Orchestration (LiCO). This interface provides a user-friendly way to manage and monitor your HPC jobs. This cluster can only be accessed while on our internal network. 
+The PACC Cluster can be accessed through the web interface at `https://hpc.uthscsa.edu`, which utilizes Lenovo Intelligent Computing Orchestration (LiCO). This interface provides a user-friendly way to manage and monitor your HPC jobs. This cluster can only be accessed while on our internal network. 
 
 #### Steps to Access via Web Interface:
 1. Open Your Browser: Navigate to An external link was removed to protect your privacy..
