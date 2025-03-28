@@ -10,7 +10,7 @@ Our high-performance storage is optimized for active workloads and large data se
 #### Archival Storage
 Archival storage is designed for long-term data retention and is available at competitive rates.  available in 1 TB increments.
 
-UT Health San Antonio Faculty and Staff: Faculty and staff can request PACC archival storage without a PACC allocation for $55 per TB.
+UT Health San Antonio Faculty and Staff: Faculty and staff can request PACC archival storage for research data without a PACC allocation.
 
 #### Access Protocols
 Storage can be configured for access through either SMB or NFS protocols. IMS provides user access management through SMB protocols, while NFS access management is handled by the department.
