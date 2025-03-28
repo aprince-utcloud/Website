@@ -2,13 +2,17 @@ site_name: UT Health San Antonio PACC HPC Cluster Techinical Docs
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  logo: /images/pacc1.png
+  palette:
+    primary: "black"
+    accent: "blue grey"
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.preview
     - navigation.tracking
     #- navigation.tabs
-    - navigation.tabs.sticky
+    #- navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.index
@@ -17,6 +21,19 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    #- navigation.footer
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - toc:
+      title: On This Page
+      permalink: true
+      permalink_class: toc-permalink
+      permalink_symbol: ¶
+      toc_depth: 3
+  - tables
 
 plugins:
   - search
@@ -27,4 +44,8 @@ nav:
     - Account: started/started.md
     - Allocation: started/allocation.md
   - Hardware Details: hardware.md
-  
+
+copyright: UT Health San Antonio  Web Privacy | Links from websites affiliated with UT Health's website (uthscsa.edu) to other websites do not constitute or imply university endorsement of those sites, their content, or products and services associated with those sites. The content on this website is intended to be used for informational purposes only. 
+
+extra:
+  generator: false

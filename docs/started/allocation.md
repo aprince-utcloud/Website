@@ -1,14 +1,7 @@
----
-tags:
-    - Account
-    - Allocation
----
-
-...
 
 # PACC Allocations 
 
-PACC Condo Partners
+#### PACC Condo Partners
 
 Partners receive a discounted rate for storage and increased allocation: 
 
@@ -20,7 +13,7 @@ Archival storage rate: $27 per TB.
 
  
 
-PACC Subscribers 
+#### PACC Subscribers 
 
 Subscribers, on an annual or hotel basis, receive: 
 
