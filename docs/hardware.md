@@ -43,6 +43,8 @@
 | OS Type | Rocky Linux 9.3 |
 | Production Date | March 2025 |
 
+[Click here to purchase this Compute node](https://uthscsa.teamdynamix.com/TDClient/2009/Portal/Requests/ServiceDet?ID=40927){.md-button}
+
 ### PACC 2-way L40 GPU Node
 
 | Total nodes | 1 |
@@ -69,6 +71,8 @@
 | | 1431 GFLOPS 91.6 TFLOPS 91.6 TFLOPS 483 Gpixel/s 1431 Gpixel/s |
 | Delivery Date | April 2025 |
 
+[Click here to purchase this L40S node](https://uthscsa.teamdynamix.com/TDClient/2009/Portal/Requests/ServiceDet?ID=40927){.md-button}
+
 ### PACC 2-Way H100 GPU Node
 
 | Total nodes | 1 |
@@ -94,3 +98,4 @@
 | | 60 TFLOPS 835 TFLOPS 1671 TFLOPS 3341 TFLOPS |
 | Delivery Date | April 2025 |
 
+[Click here to purchase this H100 GPU node](https://uthscsa.teamdynamix.com/TDClient/2009/Portal/Requests/ServiceDet?ID=40927){.md-button}
