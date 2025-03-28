@@ -27,12 +27,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
-  - toc:
-      title: On This Page
-      permalink: true
-      permalink_class: toc-permalink
-      permalink_symbol: ¶
-      toc_depth: 3
   - tables
 
 plugins:
