@@ -1,0 +1,44 @@
+﻿PACC Cluster Hardware Overview,
+,
+Cluster Configuration Type,Lenovo Intelligent Computing Orchestration (LiCO)
+Cluster Provisioning Tool,Lenovo XClarity XCC2 server management controller.
+,
+,Lenovo-developed open-source software Confluent
+Cluster Operating System,Rocky Linux 9
+Dual Management Servers,"ThinkSystem SR665 V3. 48 core 2.5GHz AMD EPYC 9224 CPU, 256GB  DDR5 RAM . Two 960GB &Two 6.4TB SSD."
+,
+,ConnectX-7 IB card. 10/25G ethernet NIC
+Dual Login Servers,ThinkSystem SR665 V3. 48 core 2.5GHz AMD EPYC 9224 CPU. 384GB  DDR5 RAM. Two 960GB SSD & Two 6.4TB SSD.
+,
+,ConnectX-7 IB card. 10/25G ethernet NIC.
+Compute Nodes(5),"Think System SR665 V3. 64 core AMD EPYC 2.5GHz CPU,"
+,
+,768GB  DDR5 RAM. Two 960GB SSD. Nvidia ConnectX-7 IB.
+,
+,Ethernet NIC. 10/25GB ethernet NIC.
+NVIDIA GPU Ready Node(1),Think System SR675 V3. 48c AMD EPYC 9224 2.5GHz CPU.
+,
+,768GB  DDR5 Memory. NVIDIA ConnectX-7 IB. 6.4TB local disk OS Disk.
+NVIDIA  GPU Nodes-L40S(1),Think System SR675 V3 Node with 2 NVDIA L40s 48gb Gen4 GPUs. 48c AMD EPYC 9224 CPU & 768GB DDR5 Memory.
+,
+,ConnectX-7 IB. 6.4TB local disk & 960TB OS Disk.
+NVIDIA GPU Nodes-H100(1),Think System SR675 V3 Node with 2 NVDIA H100 94GB Gen5 GPUs. 48c AMD EPYC 9224 CPU & 768GB DDR5 Memory.
+,
+,ConnectX-7 IB. 6.4TB local disk and 960TB OS Disk.
+Total Compute Core,512
+,
+Total Compute Memory,6144GB
+,
+Total GPU Core,Cuda =26908  Tensor=568
+,
+Total GPU Memory,284GB
+Network Interconnect,2 NVIDIA QM9700 64-Port Managed Quantum NDR InfiniBand Switch.
+,
+,NVIDIA SN2201 1GbE Managed switch for  provision.
+,
+,NVIDIA SN2201 1GbE Managed switch for IPMI.
+NAS Storage Servers(2),NVIDIA SR635 V3. 16c AMD EPYC 9124 3.0GHz CPU. NVIDIA ConnectX-7 IB. 384GB RDIMM-A Memory. Broadcom 100GBE CQSFP56 2-Port Ethernet Adapter. Lenovo External RAID 940-8e 12GB SAS card. Lenovo Internal RAID 5350-8i 12GB SAS
+NAS JBOD(1),ThinkSystem D1212 Disk Exp Enclousre with six 3.5” 16TB disks.
+,
+,JBOD is attached to NAS Storage Servers. JBOD Volume is shared Between  two Management Nodes which are in HA mode.
+Storage System,"DDN EXAScaler 400NVX2 Appliance of 700TB Flash volume on Lustre parallel file system. HDR 200GbE Network. DDN SS9024 90-slot enclosure(2). 1.8TB volume of SAS Disk Cold tier used for HOME Directory, SMB, NFS, Backup. NSDS Protocol server used as file server for DDN SS9024 Enclosure. Dell Power Edge  with 24c CPU, 128Gb Memory,  ConnectX-6 IB Card with HDR100/100GbE Adapter."
