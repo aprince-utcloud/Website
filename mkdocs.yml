@@ -1,4 +1,4 @@
-site_name: UT Health San Antonio PACC HPC Cluster Techinical Docs
+site_name: PACC HPC Cluster Technical Documentation
 site_url: https://mydomain.org/mysite
 theme:
   name: material
@@ -24,6 +24,9 @@ theme:
     #- navigation.footer
 
 markdown_extensions:
+  - def_list
+  - pymdownx.tasklist: 
+      custom_checkbox: true
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -33,10 +36,15 @@ plugins:
   - search
   - tags
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - Getting Started:
-    - Account: started/started.md
-    - Allocation: started/allocation.md
+    - Accounts: started/started.md
+    - Allocation Details: started/allocation.md
+  - Cluster Access: 
+    - Access Overview: cluster/access.md
+    - SSH Access: cluster/ssh.md
+    - File Transfer: custer/transfer.md
+    - Software Modules: cluster/modules.md
   - Hardware Details: hardware.md
 
 copyright: UT Health San Antonio  Web Privacy | Links from websites affiliated with UT Health's website (uthscsa.edu) to other websites do not constitute or imply university endorsement of those sites, their content, or products and services associated with those sites. The content on this website is intended to be used for informational purposes only. 
