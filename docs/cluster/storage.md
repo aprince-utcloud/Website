@@ -5,18 +5,16 @@ The PACC Cluster at UT Health San Antonio provides robust and scalable storage s
 
 ### Storage Options
 #### High-Performance Storage
-Our high-performance storage is optimized for active workloads and large data sets. It includes:
-
-* DDN Storage: The DDN cluster offers high-performance storage with a minimum requested storage amount of 1 TB, available in 1 TB increments.
-* Access Protocols: Storage can be configured for access through either SMB or NFS protocols. IMS provides user access management through SMB protocols, while NFS access management is handled by the department.
+Our high-performance storage is optimized for active workloads and large data sets. The DDN cluster offers high-performance storage with a minimum requested storage amount of 1 TB, available in 1 TB increments.
 
 #### Archival Storage
-Archival storage is designed for long-term data retention and is available at competitive rates:
-
-* PACC Condo Partners: Partners receive a discounted rate for storage and increased allocation. Initial project allocation space is 1 TB per purchased node, with additional TB available at $217 each. Archival storage rate is $27 per TB.
-* PACC Subscribers: Subscribers receive 300GB of project allocation space, with additional TB available at $313 each. Archival storage rate is $40 per TB.
+Archival storage is designed for long-term data retention and is available at competitive rates.  available in 1 TB increments.
 
 UT Health San Antonio Faculty and Staff: Faculty and staff can request PACC archival storage without a PACC allocation for $55 per TB.
+
+#### Access Protocols
+Storage can be configured for access through either SMB or NFS protocols. IMS provides user access management through SMB protocols, while NFS access management is handled by the department.
+For detailed pricing information, please refer to the [pricing table](#pricing) pricing table listed below.
 
 ### Storage Management
 Our storage management solutions ensure efficient handling of data usage and quotas:
