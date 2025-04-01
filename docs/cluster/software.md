@@ -38,18 +38,93 @@ To load an application, use the module load command followed by the name of the 
 ```
 module load conda
 ```
-##### Loading Python
+### Available Software on PACC
 ```
-module load python
+# Development Environments
+- JupyterLab
+- Jupyter Notebook
+- Rstudio
+
+# Programming Languages
+- Julia
+- Lua
+
+# Annotation Tools
+- CVAT
+
+# Machine Learning Frameworks
+- TensorFlow
+- Caffe
+- MXNet
+- Neon
+
+# Libraries
+- cuDNN
+- Nvidia CUDA
+- Intel oneAPI
+
+# Containers
+- Singularity
+- Charliecloud
+- apptainer/main-gcc-13.2.0
+- apptainer/1.1.9-gcc-13.2.0
+
+# Bioinformatics Tools
+- ants/2.5.1-gcc-13.2.0
+- bam-readcount/1.0.1-gcc-13.2.0
+- bcftools/1.19-gcc-13.2.0
+- bedtools2/2.31.1-gcc-13.2.0
+- bwa/0.7.17-gcc-13.2.0
+- fastqc/0.12.1-gcc-13.2.0
+- freesurfer/7.4.1-gcc-13.2.0
+- gatk/4.5.0.0-gcc-13.2.0
+- hisat2/2.2.1-gcc-13.2.0
+- htslib/1.19.1-gcc-13.2.0
+- kallisto/0.48.0-gcc-13.2.0
+- mrtrix3/3.0.3
+- nextflow/23.10.1-gcc-13.2.0
+- picard/3.1.1-gcc-13.2.0
+- pindel/0.2.5b8-gcc-13.2.0
+- py-cutadapt/4.7-gcc-13.2.0
+- rsem/1.3.3-gcc-13.2.0
+- salmon/1.10.2-gcc-13.2.0
+- samtools/1.19.2-gcc-13.2
+- star/2.7.11a-gcc-13.2.0
+- trimgalore/0.6.10-gcc-13
+- varscan/2.4.2-gcc-13.2.0
+
+# Compilers
+- gcc/13.2.0
+
+# Build Tools
+- cmake/3.27.9-gcc-13.2.0
+
+# Version Control
+- git/2.45.1-gcc-13.2.0
+
+# General Purpose Libraries
+- boost/1.85.0-gcc-13.2.0
+- zlib/1.3.1-gcc-11.4.1
+
+# Visualization Libraries
+- dcmtk/3.6.7-gcc-13.2.0
+- qt/4.8.7-gcc-13.2.0
+- qt/5.15.12-gcc-13.2.0
+- javafx/20.0.1-gcc-13.2.0
+
+# Package Managers
+- miniconda3/24.3.0-gcc-13.2.0
+
+# Programming Languages
+- python/3.9.18-gcc-13.2.0
+- python/3.10.13-gcc-13.2.0
+- r/4.4.0-gcc-13.2.0
+
+# Miscellaneous
+- squashfuse/0.5.0-gcc-13
+- perl-star-fusion/master-gcc-13.2.0
 ```
-##### Loading R
-```
-module load R
-```
-##### Loading RStudio Server
-```
-module load rstudio-server
-```
+
 #### Example Job Script
 
 Below is an example of a Slurm job script (job_script.sh) that loads Conda, Python, R, and RStudio Server modules and runs a Python script:
